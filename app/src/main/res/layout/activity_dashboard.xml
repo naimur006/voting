@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fece2f"
+    tools:context=".Dashboard">
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rules of Voting System"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="348dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-black"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Online Voting System is a platform where one can make right choice to vote any candidate according to his/her mind..."
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="22dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. One must have to complete the registration process with right information."
+        android:textSize="18sp"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. After this,one have to complete his/her verification process and face recognition."
+        android:textSize="18sp"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="10dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. After finishing the process of registration, one has to login one's personal account."
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4. One can see the candidate's name and their bio too. "
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5. After that one has to take decision and then give vote to their selective one."
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click Here To Next Page"
+        android:textSize="20sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="50dp"
+        />
+
+</LinearLayout>
